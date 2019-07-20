@@ -6,7 +6,7 @@ $db_pass = "";
 $db_name = "test";
 
 //other config
-//- if you run this script from cron jobs or using windows task schedule, better set with full folder path ex: "/var/www/xxx.com/backup"
+//- if you run this script from cron jobs or using windows task schedule, better set with full folder path ex: "/var/www/xxx.com/backup" dont forget change permision folder to 777
 $backup_path = "";
 //- leave blank if you want use dinamyc file name (auto generate date & time) 
 $backup_name = "";
